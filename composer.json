@@ -1,0 +1,32 @@
+{
+    "name": "多级联动",
+    "alias": "",
+    "description": "无限级联动",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/ake/multilevel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "阿珂",
+            "email": "2454345235@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ake\\Multilevel\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Ake\\Multilevel\\MultilevelServiceProvider",
+        "laravel": {
+            "providers": [
+                "Ake\\Multilevel\\MultilevelServiceProvider"
+            ]
+        }
+    }
+}
