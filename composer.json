@@ -1,6 +1,5 @@
 {
-    "name": "多级联动",
-    "alias": "",
+    "name": "ake/multilevel",
     "description": "无限级联动",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
